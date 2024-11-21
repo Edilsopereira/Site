@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="icon" type="image/png" sizes="16x16" href="img/icon.png">
+    <title>FrontDev Edilso</title>
+</head>
+<body>
+    <div class="container" onload="erro()">
+
+        <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>fechar</span>
+        </div>
+        <header id="home">
+            <div class="img-wrapper">
+                <img src="img/bg.jpg" >
+            </div>
+            <div class="banner">
+                <h1>Font-end & web developer</h1>
+                <p>Edilso Peres Pereira</p>
+                <button id="curriculo" onclick="curriculo()">Currículo</button>
+            </div>
+            <h1>Front-end & web developer</h1>
+            <p>Edilso Peres Pereira</p>
+            <button>Saiba Mais</button>
+        </header>
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+                    
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="https://github.com/EdilsoPereira" class="fab fa-github"></a>
+                <a href="https://www.linkedin.com/in/edilso-peres-pereira-248098208//" class="fab fa-linkedin"></a>
+            </div>
+
+        </aside>
+        <section id="conhecimentos" class="sessao-conhecimentos">
+            <div class="sessao-header">
+                <h1>Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Conhecimentos intermediários em HTML, domínio nas principais tags e clean code. Fiz cursos em plataformas online como o site "Curso em Video" e cursos pela "Rocketseat", participei da Imersao Dev, focado em desenvolvimeto Front-end pela Alura.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Possuo conhecimentos intermediários em CSS, dominio em várias formas de estilização de sites, aprendendo a fazer animações com o @keyframes.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-js-square"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Conhecimentos básicos em Java Script, Sei fazer coisas simples por enquanto, fiz um curso patrocinado pela Google no site "Curso em Video" e participei da Imersão Dev focada em JavaScript pela Alura</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-react"></i>
+                        <h3>ReactJS</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Atualmente busco conhecimento do React em várias plataformas</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-github"></i>
+                        <h3>Git e Github</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Conhecimento Básico em Git e GitHub, atualmente aprendendo versionamento de códigos.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fas fa-pencil-alt"></i>
+                        <h3>Design</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Conhecimentos básicos em design, uso a ferramenta "Figma" para desenvolver layout de sites e apps, e o Canva para fazer tratamento de imagens e algumas edições.</p>
+                    </div>
+                </div>
+                <div class="conhecimento-img-wrapper">
+                    <img src="/img/conhecimento.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="projetos" class="sessao-projetos">
+            <div class="sessao-header">
+                <h1>Projetos</h1>
+            </div>
+            <div class="projetos">
+                <div class="card">
+                    <div class="card-img-wrapper"> <img src="img/proj1.jpg" alt="Imagem do projeto Spotify"></div>
+                    <div class="card-info">
+                        <h2>Kryptor</h2>
+                        <h3>HTML,CSS e JavaScript</h3>
+                        <p>Decodificador de palavras criado com cohecimentos da escola Alura.</p>
+                        <button id="proj1" class"btn"><a href='https://edilsopereira.github.io/first/'>Conhecer</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-wrapper"><img src="img/proj2.png" alt="Imagem do projeto CloneFLix"></div>
+                    <div class="card-info">
+                        <h2>Jogo da Forca</h2>
+                        <h3>ReactJS</h3>
+                        <p>Jogo para estimular a interação de códigos</p>
+                        <button id="proj1" class"btn"><a href='https://edilsopereira.github.io/jogoDaForca/'>Conhecer</button>
+                    </div>
+                </div>
+                </div>
+                <button id="more-proj" class="more-proj"><a href='https://github.com/EdilsoPereira'>Mais Projetos</a></button>
+                </div>
+        </section>
+        <section id="contato" class="sessao-contato">
+           <div class="contato-wrapper">
+               <div class="contato-left">
+            </div>
+               <div class="contato-right">
+                    <h1>Contato</h1>
+                        <form class="inputs" action="https://formsubmit.co/peresedilso@gmail.com" method="POST">
+                            <label for="email">E-mail</label>    
+                            <input type="email" name="email" id="email"/>
+                            <label for="mensage">Menssagem</label>
+                            <textarea type="text" placeholder="Escreva algo..." name="mensage" id="menssage"></textarea>
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+                            <button type="submit">Enviar</button>
+                        </form>
+            </section>
+            <footer class="rodape">
+                <div class="icons">
+                <a href="https://www.linkedin.com/in/edilso-peres-pereira-248098208/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="https://github.com/EdilsoPereira"><ion-icon name="logo-github"></ion-icon></a>
+            </div>
+                <h3>Desenvolvido por Edilso Peres Pereira</h3>
+            </footer>
+    
+                <script src="script.js"></script>
+                <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+                <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            <a href="#home" id="link-top">
+            <i class="fas fa-arrow-up">𖤂</i>
+        </a>
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="botao.js"></script>
+</html>
